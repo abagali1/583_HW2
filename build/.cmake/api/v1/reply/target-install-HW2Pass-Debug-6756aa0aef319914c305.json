@@ -1,0 +1,106 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_llvm_install_targets",
+			"add_llvm_library",
+			"add_llvm_pass_plugin",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"/usr/local/lib/cmake/llvm/AddLLVM.cmake",
+			"hw2pass/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1100,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 892,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 774,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 792,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "HW2Pass::@25d5143d1818a4de1a9a"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Component Install Targets"
+	},
+	"id" : "install-HW2Pass::@25d5143d1818a4de1a9a",
+	"name" : "install-HW2Pass",
+	"paths" : 
+	{
+		"build" : "hw2pass",
+		"source" : "hw2pass"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/hw2pass/CMakeFiles/install-HW2Pass",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/hw2pass/CMakeFiles/install-HW2Pass.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,189 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "hw2pass/HW2Pass.so"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_llvm_library",
+			"add_llvm_pass_plugin",
+			"install",
+			"set_property",
+			"llvm_update_compile_flags",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"/usr/local/lib/cmake/llvm/AddLLVM.cmake",
+			"hw2pass/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1100,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 854,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 591,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 885,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 620,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 6
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 7,
+				"parent" : 8
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC"
+				},
+				{
+					"fragment" : " -fno-exceptions -funwind-tables -fno-rtti"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Loadable modules"
+	},
+	"id" : "HW2Pass::@25d5143d1818a4de1a9a",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,\"\\$$ORIGIN/../lib:\"",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "HW2Pass",
+	"nameOnDisk" : "HW2Pass.so",
+	"paths" : 
+	{
+		"build" : "hw2pass",
+		"source" : "hw2pass"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "hw2pass/hw2pass.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

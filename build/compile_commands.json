@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/n/eecs583a/home/abagali/W25_CSE583_HW2/build/hw2pass",
+  "command": "/usr/bin/c++ -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -g -fPIC  -fno-exceptions -funwind-tables -fno-rtti -o CMakeFiles/HW2Pass.dir/hw2pass.cpp.o -c /n/eecs583a/home/abagali/W25_CSE583_HW2/hw2pass/hw2pass.cpp",
+  "file": "/n/eecs583a/home/abagali/W25_CSE583_HW2/hw2pass/hw2pass.cpp"
+}
+]

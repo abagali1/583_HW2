@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_llvm_library",
+			"add_llvm_pass_plugin"
+		],
+		"files" : 
+		[
+			"/usr/local/lib/cmake/llvm/AddLLVM.cmake",
+			"hw2pass/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1100,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 885,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "HW2Pass",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"hw2pass/HW2Pass.so"
+			],
+			"targetId" : "HW2Pass::@25d5143d1818a4de1a9a",
+			"targetIndex" : 0,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "hw2pass",
+		"source" : "hw2pass"
+	}
+}

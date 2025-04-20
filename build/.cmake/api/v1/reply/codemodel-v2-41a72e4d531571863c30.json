@@ -1,0 +1,135 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "hw2pass",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-hw2pass-Debug-7e165ef38d927e65eb39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "hw2pass",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "HW2Pass::@25d5143d1818a4de1a9a",
+					"jsonFile" : "target-HW2Pass-Debug-5f8a8ddb3ed337a76870.json",
+					"name" : "HW2Pass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RISCVTargetParserTableGen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RISCVTargetParserTableGen-Debug-2a4e346c4175503f2e80.json",
+					"name" : "RISCVTargetParserTableGen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acc_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acc_gen-Debug-d25470fdc75c4227947a.json",
+					"name" : "acc_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "install-HW2Pass::@25d5143d1818a4de1a9a",
+					"jsonFile" : "target-install-HW2Pass-Debug-6756aa0aef319914c305.json",
+					"name" : "install-HW2Pass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "install-HW2Pass-stripped::@25d5143d1818a4de1a9a",
+					"jsonFile" : "target-install-HW2Pass-stripped-Debug-0554a3c29c35de792edb.json",
+					"name" : "install-HW2Pass-stripped",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intrinsics_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intrinsics_gen-Debug-07a8f0867a46b4044a44.json",
+					"name" : "intrinsics_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omp_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omp_gen-Debug-0e00d5f002618abb1542.json",
+					"name" : "omp_gen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/n/eecs583a/home/abagali/W25_CSE583_HW2/build",
+		"source" : "/n/eecs583a/home/abagali/W25_CSE583_HW2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
